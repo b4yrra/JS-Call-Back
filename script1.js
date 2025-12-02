@@ -254,3 +254,25 @@ numbs.forEach(evenOdd);
 // 9.
 
 Numie = [2, 3, 5, 7, 11];
+
+function primeNum(arr) {
+  higherThanTwo = arr > 2;
+
+  if (higherThanTwo % 2 !== 0) {
+    console.log("9. Prime Numbers -", arr);
+  }
+}
+
+Numie.forEach(primeNum);
+
+// 10.
+
+Numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function dividedTHREE(arr) {
+  if (arr % 3 === 0) {
+    console.log("10. 3-ийн үржвэр -", arr);
+  }
+}
+
+Numbers.forEach(dividedTHREE);
